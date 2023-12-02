@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+  }
+  
+  body{
+    scroll-behavior: smooth;
+  }
+  
+  .nav {
+    width: 100%;
+    position: absolute;
+    font-size: 20px;
+    height: 20vh;
+    background-color: whitesmoke;
+    align-items: center;
+  }
+  
+  .nav-item a {
+    color: grey;
+  }
+  
+  .nav-item a:hover {
+    color: orange;
+  }
+  
+  #back{
+    height: 100vh;
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1701467447993-9d000cc7a579?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    color: black;
+    margin-bottom: 10px;
+  
+  }
+  
+  p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: grey;
+  }
+  
+  img {
+    animation: rotateColors 5s infinite linear;
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease, opacity 0.3s ease;
+  }
+  
+  img:hover{
+    border-color: grey;
+  }
+  
+  img:active {
+    transform: scale(1.5);
+  }
